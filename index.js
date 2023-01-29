@@ -123,8 +123,7 @@ function startCounter(){
 
     //setting Text on  buttons to default
     stop_btn.innerHTML = "<i class='fa fa-stop'></i> <span> Stop</span>";
-    stop_btn.style.fontSize = ".8rem";
-
+   
     //setting counter to default
     COUNTER_STATUS = "STOPPED";
     hoursCounter = 0;
