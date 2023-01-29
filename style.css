@@ -41,17 +41,6 @@ background-size: cover;
 font-size: 3rem;
 }
 
-/* #heading:hover{
-    transition: all ease-in-out 2s;
-    color: rgb(10, 26, 208);
-    /* font-family:  'Courier New'; */
-    /* font-style: italic;
-    border-top: 10px solid rgb(255, 255, 255);
-    border-bottom: 10px solid  rgb(85, 86, 85);
-} */ 
-
-
-
 #stopwatch-display-screen{
     width: 70%;
     height:50%;
@@ -62,14 +51,14 @@ font-size: 3rem;
     border-radius: 10px;
     background-color: rgb(11, 4, 111);
     box-shadow: 0 0 10px 5px rgb(255, 255, 255,.6);
-   z-index:1;
-   background-image: url("https://cdn.pixabay.com/photo/2014/12/08/14/23/pocket-watch-560937__340.jpg");
-   background-position: top;
-   background-size: cover;
-}
-#stopwatch-display-screen:hover  {
+    z-index:1;
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/08/14/23/pocket-watch-560937__340.jpg");
+    background-size: cover;
     background-position: bottom;
     background-size: 600px;
+}
+#stopwatch-display-screen:hover  {
+    background-position: top;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255);
     transition: all ease-in-out 5s;
     
@@ -113,7 +102,6 @@ font-size: 3rem;
 #stopwatch-btn button:hover{
     box-shadow: 0 0 10px 3px rgb(214, 206, 206);
 }
-
 
 
 
