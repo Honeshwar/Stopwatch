@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-/* removing default margin */
+/* setting image to body  */
 body{
 background-image: url("https://cdn.pixabay.com/photo/2018/02/16/02/03/pocket-watch-3156771_640.jpg");
 background-repeat: no-repeat;
@@ -51,6 +51,19 @@ background-size: cover;
     
 }
 
+/*____setting style to title as stopwatch_____  */
+#title{
+    padding: 5px;
+    box-shadow: 0 0 12px 3px rgb(218, 218, 218);
+}
+
+#title h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 2.3rem;
+}
+
 /* setting style to stopwatch counter  */
 #stopwatch-counter{
     width: 100%;
@@ -94,18 +107,6 @@ background-size: cover;
 }
 
 
-/*____setting style to title as stopwatch_____  */
-#title{
-    padding: 5px;
-    box-shadow: 0 0 12px 3px rgb(218, 218, 218);
-}
-
-#title h1{
-    color: rgb(255, 255, 255);
-    letter-spacing: 5px;
-    font-style: italic;
-    font-size: 2.3rem;
-}
 
 
 /* adding media queries for medium range devices */

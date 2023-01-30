@@ -3,42 +3,52 @@
 <head>
     <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.VG6CXiZKFI_aftJJGNJSqAHaHa?w=160&h=180&c=7&r=0&o=5&pid=1.7" type="image/x-icon">
     <title>Stopwatch</title>
-  
+
+   <!-- adding style -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- creating a stopwatch container that having inside it an stopwatch display screen and title -->
     <div id="stopwatch-container">
-      
+
+        <!-- creating a stopwatch display screen that contain counter and all buttons(start,stop,reset) -->
         <div id="stopwatch-display-screen">
+            <!-- stopwatch counter -->
             <p id="stopwatch-counter">
                 <span id="hours">00:</span>
                 <span id="minutes">00:</span>
                 <span id="seconds">00</span>
             </p>
+            <!-- stopwatch buttons container -->
             <div id="stopwatch-btn">
-                <button>
-                    <i class="fa-solid fa-play"></i>
-                    <span> Start</span>
-                </button>
-                <button>
-                    <i class='fa fa-stop'></i>
-                   <span> Stop</span>
-                </button>
-                <button>
-                    <i class="fa-sharp fa-solid fa-rotate-left"></i>
-                    <span> Reset</span> 
-                </button>
+                    <!-- start button -->
+                    <button>
+                        <i class="fa-solid fa-play"></i>
+                        <span> Start</span>
+                    </button>
+                    <!-- stop button -->
+                    <button>
+                        <i class='fa fa-stop'></i>
+                    <span> Stop</span>
+                    </button>
+                    <!-- reset button -->
+                    <button>
+                        <i class="fa-sharp fa-solid fa-rotate-left"></i>
+                        <span> Reset</span> 
+                    </button>
             </div>
         </div>
-           
+
+        <!-- creating an title container for stopwatch title -->
         <div id="title">
             <h1>Stop-watch</h1>
         </div>
 
     </div>
 
-
+    <!--using font awesome  -->
     <script src="https://kit.fontawesome.com/f595980e36.js" crossorigin="anonymous"></script>
+       <!-- adding script -->
     <script src="./index.js"></script>
 </body>
 </html>
